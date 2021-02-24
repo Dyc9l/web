@@ -1,0 +1,136 @@
+/*
+Theme Name: Замените этот текст именем вашей темы.
+Theme URI: Адрес вашей темы
+Description: Краткое описание.
+Version: 1.0
+Author: Ваше имя
+Author URI: Адрес вашего сайта.
+*/
+
+body{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    padding: 0;
+	margin: 0;
+}
+
+.htopper{
+    margin-bottom: 0px;
+}
+
+h1{
+    margin-top: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.messangers img{
+    margin-left: 16px;
+}
+
+section{
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+
+    margin-top: 193px;
+    margin: auto;
+}
+
+.wrapper{
+    width: 960px;
+    height: 393px;
+
+}
+
+.facepalm{
+    margin-left: 80px;
+}
+
+.faceok{
+    margin-right: 80px;
+}
+
+.btn {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+	background: #BEB98A;
+	color: #fff;
+	display: block;
+	width: 343px;
+	padding: 18px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+footer a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.solution{
+    padding-top: 128px;
+    margin-top: 128px;
+    padding-bottom: 128px;
+    background-color: #FFFDF4;
+    margin: auto;
+}
+
+.problem_offer, .pack, footer, header{
+    width: 960px;
+    margin: auto;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pack{
+    display: flex;
+    margin-bottom: 128px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 46px;
+    margin-top: 46px;
+    
+}
+
+p{
+    width: 383px;
+}
+
+.infor, .infor p, .infor a{
+    text-align: center;
+    margin: auto;
+}
+
+.infor a{
+    margin-top: 81px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 46px;
+    margin-bottom: 80px;
+}
